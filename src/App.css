@@ -1,0 +1,152 @@
+.App {
+  text-align: left;
+  height:2000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  margin-left:35px;
+  height: 50px;
+}
+
+.App-header {
+  background-color: #2EB692;
+  height: 82px;
+  padding: 20px;
+  color: white;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  box-sizing: border-box;
+  width:100%;
+  z-index: 99; 
+}
+
+.App-nav {
+  float:right;
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered p {
+  font-size: 25px;
+  font-weight: 700;
+  font: Open Sans;
+}
+
+
+.signup-form {
+  background-color: transparent;
+}
+
+.Cover-image { 
+  position: relative;
+  width: 100%;
+  height:30%;
+}
+
+.Cover-image img {
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+.Hamburger-bar{
+  position: absolute;
+  margin-top:10px;
+}
+
+form {
+  padding: 0 40px;
+  background-color: transparent;
+  border-width: thick;
+}
+
+form input {
+  background-color: transparent;
+  display: block;
+  float:left;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form input.error {
+  border-color: red;
+}
+
+form button {
+  display: block;
+  width: 30%;
+  padding: 5px 10px;
+  appearance: none;
+  border-radius: 5px;
+  background-color: #84c00c;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+}
+
+.intro {
+  color:silver;
+  background-color: #2EB692;
+}
+
+p1 {
+  text-align: left;
+}
+
+ol, ul {
+  list-style: none;
+}
+.Navigation ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+.Navigation ul li {
+  font-weight: 400;
+  padding: 7px 10px;
+  font-size: 20px;
+  -webkit-transition: background .125s ease;
+  transition: background .125s ease;
+  border-radius: 3px;
+}
+.Navigation ul li:hover {
+  background: white;
+  color:#2EB692;
+  cursor: pointer;
+}
